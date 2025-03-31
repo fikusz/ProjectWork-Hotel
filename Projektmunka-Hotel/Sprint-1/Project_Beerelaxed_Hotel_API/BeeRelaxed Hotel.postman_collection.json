@@ -1,0 +1,1592 @@
+{
+	"info": {
+		"_postman_id": "2b3921ff-09a8-4e37-a1df-c3b269fd4d56",
+		"name": "BeeRelaxed Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41684248"
+	},
+	"item": [
+		{
+			"name": "Endpoints",
+			"item": [
+				{
+					"name": "New Beehive creation",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"string\",\n    \"zipCode\": \"number\",\n    \"city\": \"string\",\n    \"address\": \"string\",\n    \"description\": \"string\",\n    \"lat\": \"number\",\n    \"lon\": \"number\",\n    \"images\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/beehives",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"beehives"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Beehive list all",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/beehives",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"beehives"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Beehive list by id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/beehives/12",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"beehives",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File upload to Beehive",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"file\": \"file\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/beehives/picture/{name}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"beehives",
+								"picture",
+								"{name}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create booking based on dates",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"startDate\": \"string\",\n    \"endDate\": \"string\",\n    \"roomId\": \"number\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/reservations",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"reservations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Available rooms based on date",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"startDate\": \"string\",\n    \"endDate\": \"string\",\n    \"roomId\": \"number\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/reservations/availableRooms/{beehiveId}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"reservations",
+								"availableRooms",
+								"{beehiveId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Booking details by id",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/reservations/{id}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"reservations",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reservation of user",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/reservations/byUser",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"reservations",
+								"byUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Room creation for Beehive by id",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"string\",\n    \"numberOfBeds\": \"number\",\n    \"pricePerNight\": \"number\",\n    \"description\": \"string\",\n    \"imageUrl\": \" string[]\",\n    \"beehiveId\": \"number\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/rooms",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete room",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/{id}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update room details by id",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"string\",\n    \"numberOfBeds\": \"number\",\n    \"pricePerNight\": \"number\",\n    \"description\": \"string\",\n    \"imageUrl\": \" string[]\",\n    \"beehiveId\": \"number\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/{id}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show details of room by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/{id}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show details of Beehive by id Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/byBeehive/{id}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"byBeehive",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File upload to room",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"file\": \"file\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/picture/{roomId}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"picture",
+								"{roomId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Room details based on roomid",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/rooms/roomDetails/{roomId}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rooms",
+								"roomDetails",
+								"{roomId}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstName\": \"string\",\n    \"lastName\": \"string\",\n    \"password\": \"string\",\n    \"phoneNumber\": \"string\",\n    \"email\": \"string\",\n    \"role\": \"string (ROLE_BEEKEEPER or ROLE_BEEFAMILY)\",\n    \"zipcode\": \"number\",\n    \"city\": \"string\",\n    \"address\": \"string\",\n    \"imageUrlOfProfile\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/users",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/users/logout",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Own profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/users/me",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Own profile with auth",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/users/myProfile",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"myProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File upload to profile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"file\": \"file\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/users/picture/{email}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"picture",
+								"{email}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Testcases",
+			"item": [
+				{
+					"name": "User creation",
+					"item": [
+						{
+							"name": "TestSteps",
+							"item": [
+								{
+									"name": "Positive",
+									"item": [
+										{
+											"name": "Create custom user (Beefalmily)",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 201\", function () {",
+															"    pm.response.to.have.status(201);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Successful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"{{BeeFamily_firstname}}\",\n    \"lastName\": \"{{BeeFamily_lastname}}\",\n    \"password\": \"{{BeeFamily_password}}\",\n    \"phoneNumber\": \"{{BeeFamily_phone}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeFamily_role}}\",\n    \"zipcode\": \"{{BeeFamily_zipcode}}\",\n    \"city\": \"{{BeeFamily_city}}\",\n    \"address\": \"{{BeeFamily_address}}\",\n    \"imageUrlOfProfile\": \"{{BeeFamily_URL}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create custom user (Beekeeper)",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 201\", function () {",
+															"    pm.response.to.have.status(201);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Successful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"{{BeeKeeper_firstname}}\",\n    \"lastName\": \"{{BeeKeeper_lastname}}\",\n    \"password\": \"{{BeeKeeper_password}}\",\n    \"phoneNumber\": \"{{BeeKeeper_phone}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeKeeper_role}}\",\n    \"zipcode\": \"{{BeeKeeper_zipcode}}\",\n    \"city\": \"{{BeeKeeper_city}}\",\n    \"address\": \"{{BeeKeeper_address}}\",\n    \"imageUrlOfProfile\": \"{{BeeKeeper_URL}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "Negative",
+									"item": [
+										{
+											"name": "Create custom user (Beefamily) wrong firstname",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 400\", function () {",
+															"    pm.response.to.have.status(400);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([400, 402, 500]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"222!333\",\n    \"lastName\": \"{{BeeFamily_lastname}}\",\n    \"password\": \"{{BeeFamily_password}}\",\n    \"phoneNumber\": \"{{BeeFamily_phone}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeFamily_role}}\",\n    \"zipcode\": \"{{BeeFamily_zipcode}}\",\n    \"city\": \"{{BeeFamily_city}}\",\n    \"address\": \"{{BeeFamily_address}}\",\n    \"imageUrlOfProfile\": \"{{BeeFamily_URL}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create custom user (Beefamily) wrong lastname",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 400\", function () {",
+															"    pm.response.to.have.status(400);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([400, 402, 500]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"{{BeeFamily_firstname}}\",\n    \"lastName\": \"ab234!\",\n    \"password\": \"{{BeeFamily_password}}\",\n    \"phoneNumber\": \"{{BeeFamily_phone}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeFamily_role}}\",\n    \"zipcode\": \"{{BeeFamily_zipcode}}\",\n    \"city\": \"{{BeeFamily_city}}\",\n    \"address\": \"{{BeeFamily_address}}\",\n    \"imageUrlOfProfile\": \"{{BeeFamily_URL}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create custom user (Beekeeper) without phone number",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 400\", function () {",
+															"    pm.response.to.have.status(400);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([400, 402, 500]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"{{BeeKeeper_firstname}}\",\n    \"lastName\": \"{{BeeKeeper_lastname}}\",\n    \"password\": \"{{BeeKeeper_password}}\",\n    \"phoneNumber\": \"\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeKeeper_role}}\",\n    \"zipcode\": \"\",\n    \"city\": \"\",\n    \"address\": \"\",\n    \"imageUrlOfProfile\": \"\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create custom user (Beekeeper) with city as numbers",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 400\", function () {",
+															"    pm.response.to.have.status(400);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([400, 402, 500]);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"firstName\": \"{{BeeKeeper_firstname}}\",\n    \"lastName\": \"{{BeeKeeper_lastname}}\",\n    \"password\": \"{{BeeKeeper_password}}\",\n    \"phoneNumber\": \"\",\n    \"email\": \"{{$randomEmail}}\",\n    \"role\": \"{{BeeKeeper_role}}\",\n    \"zipcode\": \"\",\n    \"city\": \"123\",\n    \"address\": \"\",\n    \"imageUrlOfProfile\": \"\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/users",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"users"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								}
+							]
+						}
+					],
+					"description": "Custom user creation using the following data:\n\n- firstname\n    \n- lastname\n    \n- email\n    \n- password\n    \n- address"
+				},
+				{
+					"name": "CRUD operations for Reservation entity",
+					"item": [
+						{
+							"name": "As BeeFamily",
+							"item": [
+								{
+									"name": "Positive",
+									"item": [
+										{
+											"name": "Create booking based on dates as BeeFamily",
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeFamily_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeFamily_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"10\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create booking based on dates as BeeKeeper",
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeKeeper_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeKeeper_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"5\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
+								{
+									"name": "Negative",
+									"item": [
+										{
+											"name": "Create booking based on dates without AUT",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 401\", function () {",
+															"    pm.response.to.have.status(401);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([401, 400]);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"5\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create booking based on the exact same date and time with another user",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 500\", function () {",
+															"    pm.response.to.have.status(500);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([500, 400]);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeKeeper_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeKeeper_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"10\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create booking with nagative roomID",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 401\", function () {",
+															"    pm.response.to.have.status(401);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([401, 400]);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeFamily_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeFamily_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"-122\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create booking with roomID contains letters",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 500\", function () {",
+															"    pm.response.to.have.status(500);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([500, 400]);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeFamily_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeFamily_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"abc\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create booking with large number roomID",
+											"event": [
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															"pm.test(\"Status code is 500\", function () {",
+															"    pm.response.to.have.status(500);",
+															"});",
+															"",
+															"pm.test(\"Unsuccessful POST request\", function () {",
+															"    pm.expect(pm.response.code).to.be.oneOf([500, 400]);",
+															"});",
+															"",
+															"pm.test(\"Response time is less than 2000ms\", function () {",
+															"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+															"});"
+														],
+														"type": "text/javascript",
+														"packages": {}
+													}
+												}
+											],
+											"request": {
+												"auth": {
+													"type": "basic",
+													"basic": [
+														{
+															"key": "password",
+															"value": "{{BeeFamily_password}}",
+															"type": "string"
+														},
+														{
+															"key": "username",
+															"value": "{{BeeFamily_mail}}",
+															"type": "string"
+														}
+													]
+												},
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"startDate\": \" 2025-12-12T10:15:30\",\n    \"endDate\": \" 2025-12-18T10:15:30\",\n    \"roomId\": \"abc\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseURL}}/api/reservations",
+													"host": [
+														"{{baseURL}}"
+													],
+													"path": [
+														"api",
+														"reservations"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Connection test",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "tensinoh@gmail.c",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "A1234567!",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/rooms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

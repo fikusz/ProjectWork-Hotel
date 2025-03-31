@@ -1,0 +1,20 @@
+data_first_name;data_last_name;data_phone;data_email;data_zip_code;data_city;data_password;data_address;
+Varga;Zoltán;06702223344;varga.zoli@gmail.com;7400;Kaposvár;1111111111111111111111111111111111111111111111111111;Széchenyi tér 7;
+Fekete;Géza;06704550735;heher20770@gmail.com;2358;Debrecen;Bogn4rGG;Vezér utca 2;
+Kiss;Tamás;06703450987;tamas.kiss92@gmail.com;1011;Budapest;Pa55word!;Fő utca 12;
+Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr;Balázs;06704250735;teszter260@gmail.com;1188;"Budapest";aBC12345;Vezér utca 5;
+Balázs;Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr;06704550435;teszter260@gmail.com;1188;"Budapest";aBC12345;Vezér utca 5;
+Géza;Péter;0670455222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220735;teszter260@gmail.com;1188;"Budapest";aBC12345;Vezér utca 5;
+Géza;Péter;06704520735;teszdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddter260@gmail.com;1188;"Budapest";aBC12345;Vezér utca 5;
+Géza;Péter;06704520735;teszdter260@gmail.com;118222222222222222222222222222222222222222222222222222222222222222222222228;"Budapest";aBC12345;Vezér utca 5;
+Géza;Péter;06704520735;teszdter260@gmail.com;1138;"Buddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddapest";aBC12345;Vezér utca 5;
+Géza;Péter;06704520735;teszdter260@gmail.com;1138;"Budapest";aBCdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd12345;Vezér utca 5;
+Géza;Péter;06704520735;teszdter260@gmail.com;1138;"Budapest";aBC12345;Vezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzér utca 5;
+Szabó;Réka;06702349876;tamas.kiss92@gmail.com;6720;Szeged;SeCuR3pwd;Kossuth tér 8;
+Tóth;László;06701111222;laszlo.toth@gmail.com;8000;Székesfehérvár;T0thRulez;Petőfi utca 3;
+Bognár;Gergő;06705556677;bognar.gergo@gmail.com;3300;Eger;nemjojelszo;Rákóczi út 6;
+Tóth;Péter;06703334455;horvath.anna@gmail.com;4400;Nyíregyháza;MyS3cret;Dózsa György út 10;
+Tóth;László;06708889900;lakatos.dori@gmail.com;5000;Szolnok;D0riJelszo;Béke tér 4;
+Tóth;Tóth;06908889350;lakatos.dorei@gmail.com;5020;Szolnok;D0kjJelzzo;Béke tér 25;
+Molnár;László;06707778899;molnar.peti@gmail.com;9021;Győr;M0lPet2024;Arany János utca 15;
+

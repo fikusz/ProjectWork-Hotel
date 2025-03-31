@@ -1,0 +1,490 @@
+Key;Name;Status;Precondition;Objective;Folder;Priority;Component;Labels;Owner;Estimated Time;Coverage (Issues);Coverage (Pages);Test Script (Step-by-Step) - Step;Test Script (Step-by-Step) - Test Data;Test Script (Step-by-Step) - Expected Result;Test Script (Plain Text);Test Script (BDD)
+TE24SEPHOT-T1;Automated Registration in firefox 1;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Varga
+ data_last_name:  Zoltán
+ data_phone:      06702223344
+ data_email:      varga.zoli@gmail.com
+ data_zip_code:   7400
+ data_city:       Kaposvár
+ data_password:   1111111111111111111111111111111111111111111111111111
+ data_address:    Széchenyi tér 7
+ ";Succesfull registration.;;
+TE24SEPHOT-T2;Automated Registration in firefox 2;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Fekete
+ data_last_name:  Géza
+ data_phone:      06704550735
+ data_email:      heher20770@gmail.com
+ data_zip_code:   2358
+ data_city:       Debrecen
+ data_password:   Bogn4rGG
+ data_address:    Vezér utca 2
+ ";Succesfull registration.;;
+TE24SEPHOT-T3;Automated Registration in firefox 3;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Kiss
+ data_last_name:  Tamás
+ data_phone:      06703450987
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   1011
+ data_city:       Budapest
+ data_password:   Pa55word!
+ data_address:    Fő utca 12
+ ";Succesfull registration.;;
+TE24SEPHOT-T4;Automated Registration in firefox 4;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_last_name:  Balázs
+ data_phone:      06704250735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T5;Automated Registration in firefox 5;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Balázs
+ data_last_name:  Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_phone:      06704550435
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T6;Automated Registration in firefox 6;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      0670455222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T7;Automated Registration in firefox 7;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T8;Automated Registration in firefox 8;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   118222222222222222222222222222222222222222222222222222222222222222222222228
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T9;Automated Registration in firefox 9;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Buddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T10;Automated Registration in firefox 10;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBCdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T11;Automated Registration in firefox 11;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T12;Automated Registration in firefox 12;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Szabó
+ data_last_name:  Réka
+ data_phone:      06702349876
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   6720
+ data_city:       Szeged
+ data_password:   SeCuR3pwd
+ data_address:    Kossuth tér 8
+ ";Succesfull registration.;;
+TE24SEPHOT-T13;Automated Registration in firefox 13;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06701111222
+ data_email:      laszlo.toth@gmail.com
+ data_zip_code:   8000
+ data_city:       Székesfehérvár
+ data_password:   T0thRulez
+ data_address:    Petőfi utca 3
+ ";Succesfull registration.;;
+TE24SEPHOT-T14;Automated Registration in firefox 14;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Bognár
+ data_last_name:  Gergő
+ data_phone:      06705556677
+ data_email:      bognar.gergo@gmail.com
+ data_zip_code:   3300
+ data_city:       Eger
+ data_password:   nemjojelszo
+ data_address:    Rákóczi út 6
+ ";Succesfull registration.;;
+TE24SEPHOT-T15;Automated Registration in firefox 15;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Tóth
+ data_last_name:  Péter
+ data_phone:      06703334455
+ data_email:      horvath.anna@gmail.com
+ data_zip_code:   4400
+ data_city:       Nyíregyháza
+ data_password:   MyS3cret
+ data_address:    Dózsa György út 10
+ ";Succesfull registration.;;
+TE24SEPHOT-T16;Automated Registration in firefox 16;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06708889900
+ data_email:      lakatos.dori@gmail.com
+ data_zip_code:   5000
+ data_city:       Szolnok
+ data_password:   D0riJelszo
+ data_address:    Béke tér 4
+ ";Succesfull registration.;;
+TE24SEPHOT-T17;Automated Registration in firefox 17;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Tóth
+ data_last_name:  Tóth
+ data_phone:      06908889350
+ data_email:      lakatos.dorei@gmail.com
+ data_zip_code:   5020
+ data_city:       Szolnok
+ data_password:   D0kjJelzzo
+ data_address:    Béke tér 25
+ ";Succesfull registration.;;
+TE24SEPHOT-T18;Automated Registration in firefox 18;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;"data_first_name: Molnár
+ data_last_name:  László
+ data_phone:      06707778899
+ data_email:      molnar.peti@gmail.com
+ data_zip_code:   9021
+ data_city:       Győr
+ data_password:   M0lPet2024
+ data_address:    Arany János utca 15
+ ";Succesfull registration.;;
+TE24SEPHOT-T19;Automated Registration in firefox 19;Approved;Being able to access the website in:firefox;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in firefox;;Succesfull registration.;;
+TE24SEPHOT-T1;Automated Registration in edge 1;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Varga
+ data_last_name:  Zoltán
+ data_phone:      06702223344
+ data_email:      varga.zoli@gmail.com
+ data_zip_code:   7400
+ data_city:       Kaposvár
+ data_password:   1111111111111111111111111111111111111111111111111111
+ data_address:    Széchenyi tér 7
+ ";Succesfull registration.;;
+TE24SEPHOT-T2;Automated Registration in edge 2;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Fekete
+ data_last_name:  Géza
+ data_phone:      06704550735
+ data_email:      heher20770@gmail.com
+ data_zip_code:   2358
+ data_city:       Debrecen
+ data_password:   Bogn4rGG
+ data_address:    Vezér utca 2
+ ";Succesfull registration.;;
+TE24SEPHOT-T3;Automated Registration in edge 3;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Kiss
+ data_last_name:  Tamás
+ data_phone:      06703450987
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   1011
+ data_city:       Budapest
+ data_password:   Pa55word!
+ data_address:    Fő utca 12
+ ";Succesfull registration.;;
+TE24SEPHOT-T4;Automated Registration in edge 4;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_last_name:  Balázs
+ data_phone:      06704250735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T5;Automated Registration in edge 5;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Balázs
+ data_last_name:  Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_phone:      06704550435
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T6;Automated Registration in edge 6;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      0670455222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T7;Automated Registration in edge 7;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T8;Automated Registration in edge 8;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   118222222222222222222222222222222222222222222222222222222222222222222222228
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T9;Automated Registration in edge 9;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Buddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T10;Automated Registration in edge 10;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBCdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T11;Automated Registration in edge 11;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T12;Automated Registration in edge 12;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Szabó
+ data_last_name:  Réka
+ data_phone:      06702349876
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   6720
+ data_city:       Szeged
+ data_password:   SeCuR3pwd
+ data_address:    Kossuth tér 8
+ ";Succesfull registration.;;
+TE24SEPHOT-T13;Automated Registration in edge 13;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06701111222
+ data_email:      laszlo.toth@gmail.com
+ data_zip_code:   8000
+ data_city:       Székesfehérvár
+ data_password:   T0thRulez
+ data_address:    Petőfi utca 3
+ ";Succesfull registration.;;
+TE24SEPHOT-T14;Automated Registration in edge 14;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Bognár
+ data_last_name:  Gergő
+ data_phone:      06705556677
+ data_email:      bognar.gergo@gmail.com
+ data_zip_code:   3300
+ data_city:       Eger
+ data_password:   nemjojelszo
+ data_address:    Rákóczi út 6
+ ";Succesfull registration.;;
+TE24SEPHOT-T15;Automated Registration in edge 15;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Tóth
+ data_last_name:  Péter
+ data_phone:      06703334455
+ data_email:      horvath.anna@gmail.com
+ data_zip_code:   4400
+ data_city:       Nyíregyháza
+ data_password:   MyS3cret
+ data_address:    Dózsa György út 10
+ ";Succesfull registration.;;
+TE24SEPHOT-T16;Automated Registration in edge 16;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06708889900
+ data_email:      lakatos.dori@gmail.com
+ data_zip_code:   5000
+ data_city:       Szolnok
+ data_password:   D0riJelszo
+ data_address:    Béke tér 4
+ ";Succesfull registration.;;
+TE24SEPHOT-T17;Automated Registration in edge 17;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Tóth
+ data_last_name:  Tóth
+ data_phone:      06908889350
+ data_email:      lakatos.dorei@gmail.com
+ data_zip_code:   5020
+ data_city:       Szolnok
+ data_password:   D0kjJelzzo
+ data_address:    Béke tér 25
+ ";Succesfull registration.;;
+TE24SEPHOT-T18;Automated Registration in edge 18;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;"data_first_name: Molnár
+ data_last_name:  László
+ data_phone:      06707778899
+ data_email:      molnar.peti@gmail.com
+ data_zip_code:   9021
+ data_city:       Győr
+ data_password:   M0lPet2024
+ data_address:    Arany János utca 15
+ ";Succesfull registration.;;
+TE24SEPHOT-T19;Automated Registration in edge 19;Approved;Being able to access the website in:edge;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in edge;;Succesfull registration.;;
+TE24SEPHOT-T1;Automated Registration in chrome 1;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Varga
+ data_last_name:  Zoltán
+ data_phone:      06702223344
+ data_email:      varga.zoli@gmail.com
+ data_zip_code:   7400
+ data_city:       Kaposvár
+ data_password:   1111111111111111111111111111111111111111111111111111
+ data_address:    Széchenyi tér 7
+ ";Succesfull registration.;;
+TE24SEPHOT-T2;Automated Registration in chrome 2;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Fekete
+ data_last_name:  Géza
+ data_phone:      06704550735
+ data_email:      heher20770@gmail.com
+ data_zip_code:   2358
+ data_city:       Debrecen
+ data_password:   Bogn4rGG
+ data_address:    Vezér utca 2
+ ";Succesfull registration.;;
+TE24SEPHOT-T3;Automated Registration in chrome 3;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Kiss
+ data_last_name:  Tamás
+ data_phone:      06703450987
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   1011
+ data_city:       Budapest
+ data_password:   Pa55word!
+ data_address:    Fő utca 12
+ ";Succesfull registration.;;
+TE24SEPHOT-T4;Automated Registration in chrome 4;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_last_name:  Balázs
+ data_phone:      06704250735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T5;Automated Registration in chrome 5;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Balázs
+ data_last_name:  Molnárrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+ data_phone:      06704550435
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T6;Automated Registration in chrome 6;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      0670455222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220735
+ data_email:      teszter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T7;Automated Registration in chrome 7;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddter260@gmail.com
+ data_zip_code:   1188
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T8;Automated Registration in chrome 8;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   118222222222222222222222222222222222222222222222222222222222222222222222228
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T9;Automated Registration in chrome 9;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Buddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddapest
+ data_password:   aBC12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T10;Automated Registration in chrome 10;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBCdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd12345
+ data_address:    Vezér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T11;Automated Registration in chrome 11;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Géza
+ data_last_name:  Péter
+ data_phone:      06704520735
+ data_email:      teszdter260@gmail.com
+ data_zip_code:   1138
+ data_city:       Budapest
+ data_password:   aBC12345
+ data_address:    Vezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzér utca 5
+ ";Succesfull registration.;;
+TE24SEPHOT-T12;Automated Registration in chrome 12;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Szabó
+ data_last_name:  Réka
+ data_phone:      06702349876
+ data_email:      tamas.kiss92@gmail.com
+ data_zip_code:   6720
+ data_city:       Szeged
+ data_password:   SeCuR3pwd
+ data_address:    Kossuth tér 8
+ ";Succesfull registration.;;
+TE24SEPHOT-T13;Automated Registration in chrome 13;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06701111222
+ data_email:      laszlo.toth@gmail.com
+ data_zip_code:   8000
+ data_city:       Székesfehérvár
+ data_password:   T0thRulez
+ data_address:    Petőfi utca 3
+ ";Succesfull registration.;;
+TE24SEPHOT-T14;Automated Registration in chrome 14;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Bognár
+ data_last_name:  Gergő
+ data_phone:      06705556677
+ data_email:      bognar.gergo@gmail.com
+ data_zip_code:   3300
+ data_city:       Eger
+ data_password:   nemjojelszo
+ data_address:    Rákóczi út 6
+ ";Succesfull registration.;;
+TE24SEPHOT-T15;Automated Registration in chrome 15;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Tóth
+ data_last_name:  Péter
+ data_phone:      06703334455
+ data_email:      horvath.anna@gmail.com
+ data_zip_code:   4400
+ data_city:       Nyíregyháza
+ data_password:   MyS3cret
+ data_address:    Dózsa György út 10
+ ";Succesfull registration.;;
+TE24SEPHOT-T16;Automated Registration in chrome 16;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Tóth
+ data_last_name:  László
+ data_phone:      06708889900
+ data_email:      lakatos.dori@gmail.com
+ data_zip_code:   5000
+ data_city:       Szolnok
+ data_password:   D0riJelszo
+ data_address:    Béke tér 4
+ ";Succesfull registration.;;
+TE24SEPHOT-T17;Automated Registration in chrome 17;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Tóth
+ data_last_name:  Tóth
+ data_phone:      06908889350
+ data_email:      lakatos.dorei@gmail.com
+ data_zip_code:   5020
+ data_city:       Szolnok
+ data_password:   D0kjJelzzo
+ data_address:    Béke tér 25
+ ";Succesfull registration.;;
+TE24SEPHOT-T18;Automated Registration in chrome 18;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;"data_first_name: Molnár
+ data_last_name:  László
+ data_phone:      06707778899
+ data_email:      molnar.peti@gmail.com
+ data_zip_code:   9021
+ data_city:       Győr
+ data_password:   M0lPet2024
+ data_address:    Arany János utca 15
+ ";Succesfull registration.;;
+TE24SEPHOT-T19;Automated Registration in chrome 19;Approved;Being able to access the website in:chrome;testing various characters that names could have;/Automation;Normal;;Automation;JIRAUSER12148;00:01;;;Enter the test data in chrome;;Succesfull registration.;;
