@@ -1,2 +1,3 @@
 # ProjectWork-Hotel
-This is a Projectwork I made with my classmates.
+This is my share of the Projectwork we made with my classmates during our Progmasters Automata Tester course.
+it includes:
